@@ -8,55 +8,24 @@
 									<li class="active">
 										<a href="index.html">Accueil</a>
 									</li>
+                                    @guest
+                                    @else
 									<li>
-										<a href="#">Nos Services</a>
-										<ul>
-											<li>
-												<a href="service-wmd.html">Applications Web-Mobile</a>
-											</li>
-											<li>
-												<a href="service-ma3d.html">Dessin 2D/3D</a>
-											</li>
-											<li>
-												<!-- <a href="numerisation-automatisation.html">Numérisation et Automatisation process</a> -->
-											</li>
-											<li>
-												<a href="reseaux-informatique-telecom.html">Réseaux Informatiques</a>
-											</li>
-										</ul>
+										<a href="#"></a>
 									</li>
-									<li>
-										<a href="#">Nos réalisations</a>
-										<div class="mega-menu">
-											<ul class="mega-menu-row">
-												<li class="mega-menu-col">
-													<a href="#">Applications mobiles</a>
-													<ul>
-														<li>
-															<a href="suivi-conso-electricite.html">Suivi Conso Eletricité</a>
-														</li>
-														<li>
-															<a href="suivi-conso-eau.html">Suivi Conso Eau</a>
-														</li>
-														<li>
-															<a href="tableur-sms.html">Tableur SMS</a>
-														</li>
-													</ul>
-												</li>
-												<li class="mega-menu-col"><a href="#">Dessin 2D/3D</a></li>
-												<li class="mega-menu-col"><a href="#">Réseaux Informatiques</a></li>
-											</ul>
-										</div>
-										<!-- eof mega menu -->
+                                    <li>
+										<a href="#">QR-CODE</a>
 									</li>
-									<li>
-										<a href="contact.html">Nous rencontrer</a>
+                                    <li>
+
+										<a href="{{ route('dashboard') }}">Tableau de bord</a>
 									</li>
-									<li>
+                                    @endguest
+									<!--li>
 										<a href="#" class="search_modal_button">
 											<i class="flaticon-magnifying-glass"></i>
 										</a>
-									</li>
+									</li-->
 									<!-- eof contacts -->
 								</ul>
 							</nav>
@@ -64,11 +33,31 @@
 						</div>
 						<!-- eof .header_mainmenu  -->
 						<div class="col-md-3 text-right">
-							<span class="toggle_menu">
-								<span></span>
-							</span>
-							<a href="free-quote.html" class="theme_button">Faire un dévis</a>
+							<span class="toggle_menu"><span></span>	</span>
+
+                        @guest
+                            @if (Route::has('login'))
+							<a href="{{ route('login') }}" class="theme_button">Connexion</a>
+                            @endif
+                         @else
+
+                         <a class="theme_button" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Déconnexion') }}
+                         </a>
+                         <form id="logout-form" action="{{ route('logout') }}" method="POST">                                @csrf
+                                    </form>
+                         @endguest
 						</div>
+
+
+
+
+
+
+
+
 					</div>
 				</div>
 			</header>

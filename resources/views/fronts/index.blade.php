@@ -67,18 +67,18 @@
 											<div class="slide_description">
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
 													<p class="big">
-														Créativité
+														Santé
 													</p>
 												</div>
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
 													<p class="divider_20">
 														<span class="bold highlight2"></span><br><br>
-														Nous apportons des solutions informatiques créatives à vos besoins.
+														La santé au travail n'est pas seulement un objectif, c'est une valeur fondamentale qui guide nos actions au quotidien
 
 													</p>
 												</div>
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
-													<a href="free-quote.html" class="theme_button color2">Exprimez un besoin</a>
+													<a href="#" class="theme_button color2">En savoir plus</a>
 												</div>
 											</div>
 											<!-- eof .slide_description -->
@@ -104,18 +104,18 @@
 											<div class="slide_description">
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
 													<p class="big">
-														Réativité
+														Sécurité
 													</p>
 												</div>
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
 													<p class="divider_20">
 														<span class="bold highlight2"></span><br><br>
-														Face à vos demandes urgentes, l'anticipation reste la clef de notre Réactivité.
+														Prioriser la sécurité au travail est bien plus qu'une obligation légale.
 
 													</p>
 												</div>
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
-													<a href="free-quote.html" class="theme_button color2">Exprimez un besoin</a>
+                                                <a href="#" class="theme_button color2">En savoir plus</a>
 												</div>
 											</div>
 											<!-- eof .slide_description -->
@@ -141,17 +141,17 @@
 											<div class="slide_description">
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
 													<p class="big">
-														Succès
+														Travail
 													</p>
 												</div>
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
 													<p class="divider_20">
 														<span class="bold highlight2"></span><br><br>
-														Notre succès repose sur la satisfaction de vos besoins.
+														Le travail est bien plus qu'une simple activité ; c'est une source de développement, d'accomplissement et de connexion avec le monde qui nous entoure
 
 												</div>
 												<div class="intro-layer to_animate" data-animation="fadeInLeft">
-													<a href="free-quote.html" class="theme_button color2">Exprimez un besoin</a>
+                                                <a href="#" class="theme_button color2">En savoir plus</a>
 												</div>
 											</div>
 											<!-- eof .slide_description -->
@@ -175,72 +175,12 @@
 						<div class="col-lg-6 col-md-7">
 							<div class="framed-heading">
 								<h2 class="section_header">
-									<p>Startup Binaire</p>
+									<p>SCAN-SST</p>
 								</h2></br>
-								<span class="small">Nous sommes une entreprise Informatique de développepment de solutions numériques innovantes.</span>
+								<span class="small">SCAN-SST est une application complète de gestion des risques professionnels, facilitant l'identification, l'évaluation et la prévention des dangers en milieu de travail, tout en favorisant une culture de sécurité proactive.</span>
 							</div>
-							<p>
-
-							Le temps étant la ressource la plus onéreuse dans le contexte professionnel actuel,
-							notre but est de vous apporter dans la réalisation de vos tâches informatisées et redondantes
-							des solutions pour l'amélioration de votre productivité.
+							<p>SCAN-SST est une application innovante dédiée à la santé et à la sécurité au travail. Conçue pour répondre aux besoins des entreprises de toutes tailles et de tous secteurs, elle offre une approche holistique de la gestion des risques professionnels.
 							</p>
-							<a href="about.html" class="theme_button topmargin_30">En savoir plus</a>
-						</div>
-						<div class="col-md-5 col-lg-offset-1">
-							<div class="content-card with_background offset-card">
-								<h3 class="bold text-uppercase inverse_bg_color text-center">Nous rencontrer </h3>
-								<div class="with_padding">
-
-									<!--action="./"-->
-									<form class="quote-form" method="post" action="#">
-										<div class="form-group">
-											<label for="quote-name" class="sr-only">Nom
-												<span class="required">*</span>
-											</label>
-											<div class="input-group">
-												<i class="flaticon-avatar highlight"></i>
-												<input type="text" aria-required="true" size="30" value="" name="quote-name" id="quote-name" class="form-control" placeholder="Nom">
-											</div>
-										</div>
-
-										<div class="form-group">
-											<label for="quote-email" class="sr-only">E-mail
-												<span class="required">*</span>
-											</label>
-											<div class="input-group">
-												<i class="flaticon-envelope highlight"></i>
-												<input type="text" aria-required="true" size="30" value="" name="quote-email" id="quote-email" class="form-control" placeholder="E-mail">
-											</div>
-										</div>
-
-										<div class="form-group">
-											<label for="quote-phone" class="sr-only">Contact
-												<span class="required">*</span>
-											</label>
-											<div class="input-group">
-												<i class="flaticon-phone-call highlight"></i>
-												<input type="text" aria-required="true" size="30" value="" name="quote-phone" id="quote-phone" class="form-control" placeholder="Contact">
-											</div>
-										</div>
-
-										<div class="form-group">
-											<label for="quote-description" class="sr-only">Objet
-												<span class="required">*</span>
-											</label>
-											<div class="input-group">
-												<i class="flaticon-edit highlight"></i>
-												<textarea aria-required="true" rows="5" cols="45" name="quote-description" id="quote-description" class="form-control" placeholder="Objet"></textarea>
-											</div>
-										</div>
-
-										<div class="text-center topmargin_40">
-											<button type="submit" id="quote_submit" name="quote_submit" class="theme_button color2">Envoyer</button>
-										</div>
-									</form>
-
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -254,8 +194,8 @@
 							<div class="to_animate" data-animation="fadeInRight" data-delay="300">
 								<div class="framed-heading side-frame">
 									<h2 class="section_header">
-										Nos
-										<br> Services
+										Mes
+										<br> Fonctionnalités
 									</h2>
 								</div>
 								<p>
@@ -274,15 +214,10 @@
 											</div>
 										</div>
 										<div class="media-body">
-											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Application Web-Mobile</h4>
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Déclaration d'incident</h4>
 											<p>
-											<ul>
-												<li>Applications Webs</li>
-												<li>Applications Mobiles</li>
-												<li>Application Desktop</li>
-												<li>Site Web </li>
-
-											</ul>
+                                            La fonctionnalité de déclaration d'incident de SCAN-SST est essentielle pour une gestion efficace des risques professionnels.
+                                            Elle permet aux employés de signaler rapidement et facilement les incidents survenus en milieu de travail, ce qui permet une réponse rapide et appropriée de la part de l'entreprise.
 											</p>
 										</div>
 									</div>
@@ -297,19 +232,13 @@
 										</div>
 										<!-- <script>alert('this is my first alert meaasage')</script> -->
 										<div class="media-body">
-											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Dessin 2D/3D</h4>
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Analyse des Risques</h4>
 											<p>
-												<ul >
-												<li>Télécoms</li>
-												<li>Energie</li>
-												<li>BTP</li>
-												<li>Mécaniques</li>
-												</ul>
+                                            SCAN-SST permet d'identifier, d'évaluer et de prioriser les risques professionnels grâce à des nos agents expériementés en la matière. Cette approche aide les entreprises à mettre en œuvre des mesures préventives efficaces pour réduire les accidents et les incidents.
 											</p>
 										</div>
 									</div>
 								</div>
-<!--
 								<div class="col-sm-6 to_animate" data-animation="pullDown">
 									<div class="media teaser">
 										<div class="media-left">
@@ -318,19 +247,15 @@
 											</div>
 										</div>
 										<div class="media-body">
-											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Numérisation et Automatisation Process</h4>
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Gestion des Incidents</h4>
 											<p>
-												<ul >
-													<li>Analyse process existant</li>
-													<li>Evaluation du temps d'execution process</li>
-													<li>Automatisation </li>
-												</ul>
+                                            L'application permet de signaler et de suivre les incidents, facilitant ainsi la gestion proactive des situations d'urgence. Les données collectées alimentent une base de connaissances qui peut être utilisée pour prévenir les récurrences et améliorer continuellement les pratiques de sécurité.
 											</p>
 										</div>
 									</div>
 								</div>
-							-->
-								<div class="col-sm-6 to_animate" data-animation="pullDown">
+
+                                <div class="col-sm-6 to_animate" data-animation="pullDown">
 									<div class="media teaser">
 										<div class="media-left">
 											<div class="teaser_icon size_normal">
@@ -338,14 +263,41 @@
 											</div>
 										</div>
 										<div class="media-body">
-											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Réseaux Informatiques</h4>
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Formation et Sensibilisation</h4>
 											<p>
-												<ul >
-													<li>Câblages</li>
-													<li>Réseaux</li>
-													<li>Téléphonie</li>
-													<li>Maintenances Informaique</li>
-												</ul>
+                                            La plateforme SCAN-SST propose des thématiques sur divers aspects de la santé et de la sécurité au travail. Ces informations sont adaptées aux besoins spécifiques de chaque entreprise et service.
+											</p>
+										</div>
+									</div>
+								</div>
+
+                                <div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-package grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Suivi des Indicateurs de Performance</h4>
+											<p>
+                                            L'application fournit des tableaux de bord personnalisés permettant de suivre les indicateurs de performance clés en matière de santé et de sécurité au travail. Ces données aident les entreprises à évaluer leur conformité réglementaire, à identifier les domaines à améliorer et à démontrer leur engagement envers la sécurité des employés.
+											</p>
+										</div>
+									</div>
+								</div>
+
+                                <div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-package grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Communication et Collaboration</h4>
+											<p>
+                                            SCAN-SST facilite la communication et la collaboration entre les différentes parties prenantes, y compris les employés, les gestionnaires, les représentants syndicaux et les organismes de réglementation. Cette transparence favorise un climat de confiance et renforce l'engagement envers la santé et la sécurité au travail.
 											</p>
 										</div>
 									</div>
@@ -355,270 +307,174 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="cs section_padding_25">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center topmargin_0">
-							<div class="framed-heading top-offset-frame bottommargin_5">
-								<h2 class="section_header small">
-									Dernières innovations
-								</h2>
-							</div>
-							<div class="filters isotope_filters greylinks text-center greylinks">
-								<a href="#" data-filter="*" class="selected">Toutes</a>
-								<a href="#" data-filter=".kitchen">Applications</a>
-								<!-- <a href="#" data-filter=".bathroom">Automatisation</a> -->
-								<a href="#" data-filter=".hallway">Dessins Techniques</a>
-								<a href="#" data-filter=".livingroom">Réseaux</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="ls columns_padding_5 section_padding_5">
-				<div class="container">
-					<div class="isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
-
-						<div class="col-md-3 col-sm-4 isotope-item margin_0"></div>
-
-						<div class="col-md-3 col-sm-4 isotope-item margin_0"></div>
-
-						<div class="col-md-3 col-sm-4 isotope-item margin_0"></div>
-
-						<div class="isotope-item col-md-6 col-sm-8 col-md-push-6 kitchen">
-
-							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
-								<div class="item-media">
-									<img src="images/work/15.jpg" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/15.jpg"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<div class="display_table">
-										<h4 class="item-meta display_table_cell">
-											<a href="gallery-single.html">working process</a>
-										</h4>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-						<div class="isotope-item col-md-3 col-sm-4 col-md-push-6 bathroom">
-
-							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
-								<div class="item-media">
-									<img src="images/work/11.jpg" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/11.jpg"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<div class="display_table">
-										<h4 class="item-meta display_table_cell">
-											<a href="gallery-single.html">working process</a>
-										</h4>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-						<div class="isotope-item col-md-3 col-sm-4 hallway">
-
-							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
-								<div class="item-media">
-									<img src="images/work/05.jpg" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/05.jpg"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<div class="display_table">
-										<h4 class="item-meta display_table_cell">
-											<a href="gallery-single.html">working process</a>
-										</h4>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-						<div class="isotope-item col-md-3 col-sm-4 livingroom">
-
-							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
-								<div class="item-media">
-									<img src="images/work/17.jpg" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/17.jpg"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<div class="display_table">
-										<h4 class="item-meta display_table_cell">
-											<a href="gallery-single.html">working process</a>
-										</h4>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-						<div class="isotope-item col-md-3 col-sm-4 nursery">
-
-							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
-								<div class="item-media">
-									<img src="images/work/16.jpg" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/16.jpg"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<div class="display_table">
-										<h4 class="item-meta display_table_cell">
-											<a href="gallery-single.html">working process</a>
-										</h4>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</section>
-
 			<section class="ls section_padding_top_75 section_padding_bottom_90 columns_margin_bottom_30 page_blog">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<div class="framed-heading">
 								<h2 class="section_header">
-									Recentes publications
+									Recentes Séances CSST
 								</h2>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<article class="vertical-item content-padding with_border blog-item">
-								<div class="item-media">
-									<img src="images/gallery/18.png" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/18.png"></a>
-											<a class="p-share" title="" href="#"></a>
-											<a class="p-like" title="" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<header class="entry-header">
 
-										<span class="date">
-											<time datetime="2016-01-10T15:05:23+00:00" class="entry-date">
-												Septembre, 2019
-											</time>
-										</span>
-										<h3 class="entry-title">
-											<a href="suivi-conso-electricite.html" rel="bookmark">Suivi Conso électricité</a>
-										</h3>
-									</header>
+                    <div class="col-sm-10 col-sm-push-1">
 
-									<p>
-										Suivre au quotidien l'évolution de sa consommation d'électricité pour un client CIE au tarif Post-payé
-										est la problématique qui a beaucoup scucité notre attention dans les temps qui précédèrent
-										cette innovations. Désormais, grace à votre application Suivi Conso Electricité, et sans Internet, cela est possible.
-									</p>
+<div class="widget widget_slider">
 
-									<a href="suivi-conso-electricite.html" class="small-text extrabold">Télécharger</a>
-								</div>
-							</article>
-						</div>
+<h3 class="widget-title">Thématiques</h3>
+<div class="owl-carousel" data-nav="true" data-loop="true" data-autoplay="false" data-items="1" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-responsive-xs="1">
 
-						<div class="col-md-4 col-sm-6">
-							<article class="vertical-item content-padding with_border blog-item">
-								<div class="item-media">
-									<img src="images/gallery/19.png" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/03.jpg"></a>
-											<a class="p-share" title="" href="#"></a>
-											<a class="p-like" title="" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<header class="entry-header">
-										<span class="date">
-											<time datetime="2016-01-10T15:05:23+00:00" class="entry-date">
-												Octobre, 2020
-											</time>
-										</span>
-										<h3 class="entry-title">
-											<a href="suivi-conso-eau.html" rel="bookmark">Suivi Conso Eau</a>
-										</h3>
-									</header>
-									<p>
-										Suivre au quotidien l'évolution de sa consommation d'eau courante pour un client SODECI
-										est la problématique qui a beaucoup scucité notre attention dans les temps qui précédèrent
-										cette innovations. Désormais, grace à votre application Suivi Conso Eau, et sans Internet, cela est possible.
-									</p></br>
-									<a href="suivi-conso-eau.html" class="small-text extrabold">Télécharger</a>
-								</div>
-							</article>
-						</div>
 
-						<div class="col-md-4 col-sm-6">
-							<article class="vertical-item content-padding with_border blog-item">
-								<div class="item-media">
-									<img src="images/gallery/20.png" alt="">
-									<div class="media-links">
-										<div class="links-wrap">
-											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/03.jpg"></a>
-											<a class="p-share" title="" href="#"></a>
-											<a class="p-like" title="" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="item-content">
-									<header class="entry-header">
-										<span class="date">
-											<time datetime="2016-01-10T15:05:23+00:00" class="entry-date">
-												Janvier, 2019
-											</time>
-										</span>
-										<h3 class="entry-title">
-											<a href="tableur-sms.html" rel="bookmark">Tableur SMS</a>
-										</h3>
-									</header>
-									<p>
-										Vous êtes responsable de communication, d'une petite, moyenne, grande communauté ou
-										d'un etablissement scolaire, avec l'application android Tableur SMS, vous pouvez désormais envoyer automatiquement,
-										à chaque destinatire, des SMS non groupé, avec un contenu personnalisé.
-									</p></br>
-									<a href="tableur-sms.html" class="small-text extrabold">Télécharger</a>
-								</div>
-							</article>
-						</div>
+    <div class="vertical-item">
+
+
+    <div class="side-item event-item content-padding with_border bottommargin_30">
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="item-media">
+            <img src="images/gallery/07.jpg" alt="">
+            <div class="media-links">
+                <a class="abs-link" title="" href="event-single-full.html"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="item-content">
+            <h3 class="entry-title topmargin_0">
+                <a href="event-single-full.html">Renforcement de la culture de sécurité</a>
+            </h3>
+
+            <p class="item-meta greylinks">
+                <i class="rt-icon2-calendar4 highlight"></i> 3 juin 2024
+                <i class="rt-icon2-location2 highlight"></i> Salle 10, SGE
+            </p>
+            <p> Focus sur l'engagement des employés, la communication ouverte, et la promotion d'une attitude proactive en matière de sécurité. Objectif : créer une culture d'échange où chacun se sent responsabilisé pour la sécurité au travail..</p>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+<div class="side-item event-item content-padding with_border bottommargin_30">
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="item-media">
+            <img src="images/gallery/09.jpg" alt="">
+            <div class="media-links">
+                <a class="abs-link" title="" href="event-single-full.html"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="item-content">
+            <h3 class="entry-title topmargin_0">
+                <a href="event-single-full.html">Gestion des risques professionnels</a>
+            </h3>
+
+            <p class="item-meta greylinks">
+                <i class="rt-icon2-calendar4 highlight"></i> 10 mai 2024,
+                <i class="rt-icon2-location2 highlight"></i> Salle 15, SGE
+            </p>
+            <p>Analyse approfondie des dangers potentiels en milieu de travail, évaluation des mesures préventives et planification de stratégies pour assurer un environnement de travail sécurisé et conforme aux réglementations.</p>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+    </div>
+    <div class="vertical-item">
+
+
+    <div class="side-item event-item content-padding with_border bottommargin_30">
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="item-media">
+            <img src="images/gallery/07.jpg" alt="">
+            <div class="media-links">
+                <a class="abs-link" title="" href="event-single-full.html"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="item-content">
+            <h3 class="entry-title topmargin_0">
+                <a href="event-single-full.html">Promotion de la santé mentale au travail</a>
+            </h3>
+
+            <p class="item-meta greylinks">
+                <i class="rt-icon2-calendar4 highlight"></i> 5 avril 2024,
+                <i class="rt-icon2-location2 highlight"></i> Salle 1, SGE
+            </p>
+            <p>Discussion sur les facteurs de stress, les initiatives de bien-être et les ressources de soutien pour favoriser un environnement professionnel sain et équilibré. Objectif : sensibiliser et soutenir la santé mentale des employés pour une productivité optimale..</p>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+<div class="side-item event-item content-padding with_border bottommargin_30">
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="item-media">
+            <img src="images/gallery/09.jpg" alt="">
+            <div class="media-links">
+                <a class="abs-link" title="" href="event-single-full.html"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="item-content">
+            <h3 class="entry-title topmargin_0">
+                <a href="event-single-full.html">Culture de sécurité et engagement des employés</a>
+            </h3>
+
+            <p class="item-meta greylinks">
+                <i class="rt-icon2-calendar4 highlight"></i> 20 mars 2024,
+                <i class="rt-icon2-location2 highlight"></i> Salle 10, SGE
+            </p>
+            <p>Exploration des valeurs organisationnelles, encouragement de la participation active des employés dans la sécurité, et création d'une culture où la sécurité est une priorité partagée. Objectif : renforcer la responsabilité collective et l'implication dans les pratiques sécuritaires..</p>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
 					</div>
 				</div>
 			</section>
@@ -640,34 +496,35 @@
 					<div class="row topmargin_30">
 						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
 							<a href="#" class="partner-link">
-								<img src="./images/partners/01.png" alt="" />
+								<img src="images/cie1.png" alt="" />
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
 							<a href="#" class="partner-link">
-								<img src="./images/partners/02.png" alt="" />
+								<img src="images/eranove-academy.png" alt="" />
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
 							<a href="#" class="partner-link">
-								<img src="./images/partners/03.png" alt="" />
+								<img src="images/gs2e.jfif" alt="" />
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
 							<a href="#" class="partner-link">
-								<img src="./images/partners/04.png" alt="" />
+								<img src="images/sodeci.png" alt="" />
+							</a>
+						</div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="images/globux.jpg" alt="" />
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
 							<a href="#" class="partner-link">
-								<img src="./images/partners/05.png" alt="" />
+								<img src="images/veone.png" alt="" />
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
-							<a href="#" class="partner-link">
-								<img src="./images/partners/06.png" alt="" />
-							</a>
-						</div>
+
 					</div>
 				</div>
 			</section>

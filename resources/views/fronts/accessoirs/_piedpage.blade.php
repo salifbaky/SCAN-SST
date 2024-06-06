@@ -1,6 +1,7 @@
 <section class="cs ds section_padding_40">
 				<div class="container">
 					<div class="row">
+
 						<div class="col-md-3 col-sm-6">
 							<div class="media inline-block small-teaser text-left teaser-link">
 								<span class="media-left media-middle">
@@ -10,7 +11,7 @@
 								</span>
 								<span class="media-body media-middle semibold">
 									<span class="bold grey">Questions préoccupations</span>
-									<br> +225 0-779-725-042
+									<br> +225 00 00 00 00 00
 								</span>
 							</div>
 						</div>
@@ -22,7 +23,7 @@
 									</span>
 								</span>
 								<span class="media-body media-middle semibold">
-									<span class="bold grey">Rue des Espaders</span>
+									<span class="bold grey">Plateau</span>
 									<br> Abidjan, Côte d'Ivoire
 								</span>
 							</a>
@@ -49,36 +50,16 @@
 								</span>
 								<span class="media-body media-middle semibold">
 									<span class="bold grey">votre mail à</span>
-									<br> stpbinaire@startupbinaire.com
+									<br> groupe2@scan_sst.ci
 								</span>
 							</a>
 						</div>
+
 						<div class="col-sm-6">
 							<img width="250" height="100" src="images/logo_blanc.png" alt="">
-								<br>Notre présence sur les réseaux sociaux
-							</p>
-							<div>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-twitter"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-google"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-instagram"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-linkedin"></a>
-							</div>
 						</div>
 					</div>
 
 					</div>
 
-			</section>
-			<section class="page_copyright cs main_color2 section_padding_15 columns_margin_0">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<p>&copy; Startup Binaire 2021 | Crée avec
-								<i class="fa fa-heart-o highlight"></i> par
-								<a href="#">Startup Binaire</a>
-							</p>
-						</div>
-					</div>
-				</div>
 			</section>
