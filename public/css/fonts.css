@@ -1809,7 +1809,7 @@ readers do not read off random characters that represent icons */
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
         /*font-size: 20px;*/
 font-style: normal;
@@ -1838,7 +1838,7 @@ font-style: normal;
 .flaticon-like:before { content: "\f106"; }
 .flaticon-magnifying-glass:before { content: "\f107"; }
 .flaticon-next:before { content: "\f108"; }
-.flaticon-package:before { content: "\f109"; } 
+.flaticon-package:before { content: "\f109"; }
 .flaticon-paper-plane:before { content: "\f10a"; }
 .flaticon-percentage:before { content: "\f10b"; }
 .flaticon-phone-call:before { content: "\f10c"; }

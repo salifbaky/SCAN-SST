@@ -45,6 +45,7 @@
 	<div id="canvas">
 		<div id="box_wrapper">
 
+        @include('fronts.accessoirs._adresse')
 			<!-- template sections -->
 			<section class="ls ms section_padding_top_100 section_padding_bottom_100 section_full_height">
 				<div class="container">
@@ -199,6 +200,7 @@
 				</div>
 				<!-- .container -->
 			</section>
+            @include('fronts.accessoirs._piedpage')
 		</div>
 		<!-- eof #box_wrapper -->
 	</div>

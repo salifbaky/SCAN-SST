@@ -70,27 +70,21 @@
 											</a>
 											<ul>
 												<li>
-													<a href="admin_profile.html">
+													<a href="#">
 														<i class="fa fa-user"></i>
-														Profile
+														Profil
 													</a>
 												</li>
 												<li>
-													<a href="admin_profile_edit.html">
+													<a href="#">
 														<i class="fa fa-edit"></i>
-														Edit Profile
+														Modififier
 													</a>
 												</li>
 												<li>
-													<a href="admin_inbox.html">
-														<i class="fa fa-envelope-o"></i>
-														Inbox
-													</a>
-												</li>
-												<li>
-													<a href="admin_signin.html">
+													<a href="#">
 														<i class="fa fa-sign-out"></i>
-														Log Out
+														Déconnexion
 													</a>
 												</li>
 											</ul>
@@ -101,153 +95,89 @@
 
 							<!-- main side nav start -->
 							<nav class="mainmenu_side_wrapper">
-								<h3 class="main_bg_color2">Dashboard</h3>
+								<h3 class="main_bg_color2">Tableau de bord</h3>
 								<ul class="nav vertical-nav menu-side-click">
 									<li class="active">
 										<a href="{{ route('accueil') }}">
-											<i class="fa fa-th-large"></i>
+											<i class="fa fa-home"></i>
 											Accueil
 										</a>
 
 									</li>
+                                    <li class="active">
+										<a href="#">
+											<i class="fa fa-th-large"></i>
+											tableau de bord
+										</a>
+
+									</li>
+                                    <li>
+										<a href="#">
+											<i class="fa fa-user"></i>
+											Comptes
+										</a>
+										<ul>
+											<li>
+												<a href="#">
+													Droit d'accès
+												</a>
+											</li>
+										</ul>
+									</li>
 								</ul>
 
-								<h3 class="dark_bg_color">Pages</h3>
+								<h3 class="dark_bg_color">Evènements</h3>
 								<ul class="nav vertical-nav menu-side-click">
 									<li>
 										<a href="#">
-											<i class="fa fa-user"></i>
-											Account
-										</a>
-										<ul>
-											<li>
-												<a href="admin_profile.html">
-													Profile
-												</a>
-											</li>
-											<li>
-												<a href="admin_profile_edit.html">
-													Edit Profile
-												</a>
-											</li>
-											<li>
-												<a href="admin_inbox.html">
-													Inbox
-												</a>
-											</li>
-											<li>
-												<a href="admin_signin.html">
-													Sign In
-												</a>
-											</li>
-											<li>
-												<a href="admin_signup.html">
-													Sign Up
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="admin_posts.html">
 											<i class="fa fa-file-text"></i>
-											Posts
+											Incidents
 										</a>
 										<ul>
 											<li>
-												<a href="admin_posts.html">
-													Posts
+												<a href="#">
+													Déclarartions
 												</a>
 											</li>
 											<li>
-												<a href="admin_post.html">
-													Single Post
-												</a>
-											</li>
-
-										</ul>
-									</li>
-									<li>
-										<a href="admin_products.html">
-											<i class="fa fa-suitcase"></i>
-											Products
-										</a>
-										<ul>
-											<li>
-												<a href="admin_products.html">
-													Products
+												<a href="#">
+													Analyses
 												</a>
 											</li>
 											<li>
-												<a href="admin_product.html">
-													Single Product
-												</a>
-											</li>
-
-										</ul>
-									</li>
-									<li>
-										<a href="admin_orders.html">
-											<i class="fa fa-shopping-cart"></i>
-											Orders
-										</a>
-										<ul>
-											<li>
-												<a href="admin_orders.html">
-													Orders
+												<a href="#">
+													Traitements
 												</a>
 											</li>
 											<li>
-												<a href="admin_order.html">
-													Single Order
+												<a href="#">
+													Clôtures
 												</a>
 											</li>
 										</ul>
-									</li>
-									<li>
-										<a href="admin_comments.html">
-											<i class="fa fa-comment"></i>
-											Comments
-										</a>
-										<ul>
-											<li>
-												<a href="admin_comments.html">
-													Comments
-												</a>
-											</li>
-											<li>
-												<a href="admin_comment.html">
-													Single Comment
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="admin_faq.html">
-											<i class="fa fa-support"></i>
-											FAQ
-										</a>
 									</li>
 								</ul>
 
-								<h3 class="dark_bg_color">UI Elements</h3>
+								<h3 class="dark_bg_color">CSST</h3>
 								<ul class="nav vertical-nav menu-side-click">
-									<li>
-										<a href="admin_tables.html">
-											<i class="fa fa-table"></i>
-											Tables
+                                <li>
+										<a href="#">
+											<i class="fa fa-suitcase"></i>
+											Gestionnaire CSST
 										</a>
-									</li>
-									<li>
-										<a href="admin_forms.html">
-											<i class="fa fa-check-square-o"></i>
-											Forms
-										</a>
-									</li>
-									<li>
-										<a href="admin_bootstrap.html">
-											<i class="fa fa-cog"></i>
-											Bootstrap
-										</a>
+										<ul>
+											<li>
+												<a href="#">
+													Plublications
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													Gestion
+												</a>
+											</li>
+
+										</ul>
 									</li>
 								</ul>
 							</nav>
@@ -259,7 +189,7 @@
 
 			<header class="page_header header_white">
 
-				<div class="widget widget_search">
+				<!--div class="widget widget_search">
 
 					<form method="get" class="searchform form-inline" action="./">
 						<div class="form-group">
@@ -268,7 +198,7 @@
 						</div>
 						<button type="submit" class="theme_button">Search</button>
 					</form>
-				</div>
+				</div-->
 
 
 				<div class="pull-right">
@@ -276,216 +206,56 @@
 						<li class="dropdown header-notes-dropdown">
 							<a class="header-button" id="header-messages" data-target="#" href="./" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
 								<i class="fa fa-envelope grey"></i>
-								<span class="header-button-text">Inbox</span>
+								<span class="header-button-text">Notifications</span>
 								<span class="header-dropdown-number">
-									10
+									2
 								</span>
 							</a>
 
 							<div class="dropdown-menu" role="menu" aria-labelledby="header-messages">
-								<ul class="list1 no-bullets no-top-border no-bottom-border bottommargin_0">
+								<ul class="list1 no-bullets no-top-border no-bottom-border bottommargin_0 ">
 
-									<li>
-										<div class="media">
-											<div class="media-left">
-												<img src="images/team/01.jpg" alt="...">
-											</div>
-											<div class="media-body">
-												<h5 class="media-heading">
-													Alex Walker
-													<small>2 hours ago</small>
-												</h5>
-												<div class="one-line-text">
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="media">
-											<div class="media-left">
-												<img src="images/team/02.jpg" alt="...">
-											</div>
-											<div class="media-body">
-												<h5 class="media-heading">
-													Janet C. Donnalds
-													<small>5 hours ago</small>
-												</h5>
-												<div class="one-line-text">
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero itaque dolor laboriosam dolores magnam mollitia, voluptatibus inventore accusamus illo.
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="media">
-											<div class="media-left">
-												<img src="images/team/03.jpg" alt="...">
-											</div>
-											<div class="media-body">
-												<h5 class="media-heading">
-													Victoria Grow
-													<small>1 day ago</small>
-												</h5>
-												<div class="one-line-text">
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, esse, magni aliquam quisquam modi delectus veritatis est ut culpa minus repellendus.
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="text-center darklinks">
-											<a href="admin_inbox.html">View All</a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</li>
-
-						<li class="dropdown header-notes-dropdown">
-							<a class="header-button" id="header-notes" data-target="#" href="./" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-								<i class="fa fa-bell grey"></i>
-								<span class="header-button-text">Messages</span>
-								<span class="header-dropdown-number">
-									6
-								</span>
-							</a>
-
-							<div class="dropdown-menu" role="menu" aria-labelledby="header-notes">
-								<ul class="list1 no-bullets no-top-border no-bottom-border bottommargin_0">
-									<li>
-										<div class="media small-teaser">
-											<div class="media-left">
-												<div class="teaser_icon label-success round">
-													<i class="fa fa-shopping-cart"></i>
-												</div>
-											</div>
-											<div class="media-body">
-												<span class="grey">
-													New order
-												</span>
-												<small class="pull-right">2 minutes ago</small>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="media small-teaser">
-											<div class="media-left">
-												<div class="teaser_icon label-success round">
-													<i class="fa fa-user"></i>
-												</div>
-											</div>
-											<div class="media-body">
-												<span class="grey">
-													New user registered
-												</span>
-												<small class="pull-right">3 minutes ago</small>
-											</div>
-										</div>
-									</li>
-
-									<li>
-										<div class="media small-teaser">
-											<div class="media-left">
-												<div class="teaser_icon label-danger round">
-													<i class="fa fa-bolt"></i>
-												</div>
-											</div>
-											<div class="media-body">
-												<span class="grey">
-													Server overloaded
-												</span>
-												<small class="pull-right">5 minutes ago</small>
-											</div>
-										</div>
-									</li>
-
-									<li>
-										<div class="media small-teaser">
-											<div class="media-left">
-												<div class="teaser_icon label-warning round">
-													<i class="fa fa-bell-o"></i>
-												</div>
-											</div>
-											<div class="media-body">
-												<span class="grey">
-													Long database query
-												</span>
-												<small class="pull-right">5 minutes ago</small>
-											</div>
-										</div>
-									</li>
-
-									<li>
-										<div class="media small-teaser">
-											<div class="media-left">
-												<div class="teaser_icon label-success round">
-													<i class="fa fa-user"></i>
-												</div>
-											</div>
-											<div class="media-body">
-												<span class="grey">
-													New user registered
-												</span>
-												<small class="pull-right">8 minutes ago</small>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="text-center darklinks">
-											<a href="#">View All</a>
-										</div>
-									</li>
+                                    <li class="item-editable">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <div class="teaser_icon label-danger round">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5>
+                                                            Ines Wavo
+                                                            <small>il y a 2 heures</small>
+                                                        </h5>
+                                                        <div>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </li>
+                                    <li class="item-editable">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <div class="teaser_icon label-danger round">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5>
+                                                            Ines Wavo
+                                                            <small>il y a 2 heures</small>
+                                                        </h5>
+                                                        <div>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </li>
 
 								</ul>
 							</div>
-						</li>
-
-						<li class="dropdown user-dropdown-menu">
-							<a class="header-button" id="user-dropdown-menu" data-target="#" href="./" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-								<i class="fa fa-user grey"></i>
-								<span class="header-button-text">User</span>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="user-dropdown-menu">
-								<ul class="nav vertical-nav greylinks">
-									<li>
-										<a href="admin_profile.html">
-											<i class="fa fa-user"></i>
-											Profile
-										</a>
-									</li>
-									<li>
-										<a href="admin_profile_edit.html">
-											<i class="fa fa-edit"></i>
-											Edit Profile
-										</a>
-									</li>
-									<li>
-										<a href="admin_inbox.html">
-											<i class="fa fa-envelope-o"></i>
-											Inbox
-										</a>
-									</li>
-									<li>
-										<a href="admin_signin.html">
-											<i class="fa fa-sign-out"></i>
-											Log Out
-										</a>
-									</li>
-								</ul>
-
-							</div>
 
 						</li>
-
-						<li class="dropdown visible-xs-inline-block">
-							<a href="#" class="search_modal_button header-button">
-								<i class="fa fa-search grey"></i>
-								<span class="header-button-text">Search</span>
-							</a>
-						</li>
-
-
 					</ul>
 				</div>
 				<!-- eof .header_right_buttons -->
@@ -498,7 +268,7 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<h3>Dashboard
-								<small>main page</small>
+								<small></small>
 							</h3>
 						</div>
 					</div>
@@ -510,8 +280,12 @@
 							<div class="teaser media after_cover color_bg_1">
 
 								<div class="media-body">
-									<h4 class="counter highlight" data-from="0" data-to="2630" data-speed="1800">0</h4>
-									<p>Reviews / Month</p>
+                                <h4 class="highlight counter-wrap">
+										Total:
+										<span class="counter" data-from="0" data-to="2630" data-speed="1800">0</span>
+										<!--span class="counter-add">K</span-->
+									</h4>
+									<p>Incidents Déclarés</p>
 								</div>
 
 								<div class="media-right">
@@ -532,7 +306,7 @@
 									<h4 class="highlight counter-wrap">
 										<span class="counter" data-from="0" data-to="223" data-speed="2500">0</span>
 									</h4>
-									<p>Clients / Month</p>
+									<p>Incidents Analysés</p>
 								</div>
 
 								<div class="media-right">
@@ -551,7 +325,7 @@
 
 								<div class="media-body">
 									<h4 class="counter highlight" data-from="0" data-to="325" data-speed="2100">0</h4>
-									<p>Orders / Month</p>
+									<p>Incidents Traités</p>
 								</div>
 								<div class="media-right">
 									<div class="teaser_icon size_small">
@@ -569,11 +343,10 @@
 
 								<div class="media-body">
 									<h4 class="highlight counter-wrap">
-										$
 										<span class="counter" data-from="0" data-to="121" data-speed="2500">0</span>
 										<span class="counter-add">K</span>
 									</h4>
-									<p>Total Profit</p>
+									<p>Incidents Clôturés</p>
 								</div>
 								<div class="media-right">
 									<div class="teaser_icon size_small">
@@ -591,17 +364,23 @@
 						<!-- Yearly Visitors -->
 						<div class="col-xs-12 col-md-6">
 							<div class="with_background with_padding">
-								<canvas class="canvas-chart-line-yearly-visitors"></canvas>
+								<canvas class="canvas-chart-incidents"></canvas>
 							</div>
 						</div>
 						<!-- .col-* -->
 						<!-- Monthly Visitors -->
 						<div class="col-xs-12 col-md-6">
 							<div class="with_background with_padding">
-								<canvas class="canvas-chart-line-monthly-visitors"></canvas>
+								<canvas class="canvas-chart-recommandations"></canvas>
 							</div>
 						</div>
-						<!-- .col-* -->
+
+						<!--div class="col-xs-12 col-md-4">
+							<div class="with_background with_padding">
+								<canvas class="canvas-chart-incidents"></canvas>
+							</div>
+						</div-->
+
 					</div>
 					<!-- .row -->
 
@@ -610,30 +389,21 @@
 
 							<div class="with_background with_padding">
 								<h4>
-									Latest Comments
+									Récentes Déclarations d'Incident
 								</h4>
 								<div class="admin-scroll-panel scrollbar-macosx">
 									<ul class="list1 no-bullets">
 										<li class="item-editable">
 											<div class="media">
-												<div class="item-edit-controls darklinks">
-													<a href="#">
-														<i class="fa fa-share-square-o"></i>
-													</a>
-													<a href="#">
-														<i class="fa fa-edit"></i>
-													</a>
-													<a href="#">
-														<i class="fa fa-trash-o"></i>
-													</a>
-												</div>
 												<div class="media-left">
-													<img src="images/team/01.jpg" alt="...">
+													<div class="teaser_icon label-danger round">
+														<i class="fa fa-bolt"></i>
+													</div>
 												</div>
 												<div class="media-body">
 													<h5>
-														Alex Walker
-														<small>2 hours ago</small>
+														Ferdinand Koko
+														<small>il y a 2 heures</small>
 													</h5>
 													<div>
 														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
@@ -643,63 +413,47 @@
 										</li>
 										<li class="item-editable">
 											<div class="media">
-												<div class="item-edit-controls darklinks">
-													<a href="#">
-														<i class="fa fa-share-square-o"></i>
-													</a>
-													<a href="#">
-														<i class="fa fa-edit"></i>
-													</a>
-													<a href="#">
-														<i class="fa fa-trash-o"></i>
-													</a>
-												</div>
 												<div class="media-left">
-													<img src="images/team/02.jpg" alt="...">
+													<div class="teaser_icon label-danger round">
+														<i class="fa fa-bolt"></i>
+													</div>
 												</div>
 												<div class="media-body">
 													<h5>
-														Janet C. Donnalds
-														<small>5 hours ago</small>
+														Ines Wavo
+														<small>il y a 2 heures</small>
 													</h5>
 													<div>
-														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero itaque dolor laboriosam dolores magnam mollitia, voluptatibus inventore accusamus illo.
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
 													</div>
 												</div>
 											</div>
 										</li>
 										<li class="item-editable">
 											<div class="media">
-												<div class="item-edit-controls darklinks">
-													<a href="#">
-														<i class="fa fa-share-square-o"></i>
-													</a>
-													<a href="#">
-														<i class="fa fa-edit"></i>
-													</a>
-													<a href="#">
-														<i class="fa fa-trash-o"></i>
-													</a>
-												</div>
 												<div class="media-left">
-													<img src="images/team/03.jpg" alt="...">
+													<div class="teaser_icon label-danger round">
+														<i class="fa fa-bolt"></i>
+													</div>
 												</div>
 												<div class="media-body">
 													<h5>
-														Victoria Grow
-														<small>1 day ago</small>
+														Melissa Kouadio
+														<small>il y a 2 heures</small>
 													</h5>
 													<div>
-														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, esse, magni aliquam quisquam modi delectus veritatis est ut culpa minus repellendus.
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
 													</div>
 												</div>
 											</div>
 										</li>
+
+
 									</ul>
 								</div>
 								<!-- .admin-scroll-panel -->
 								<div class="text-right greylinks panel-view-all">
-									<a href="admin_comments.html">View All</a>
+									<a href="#">Tout voir</a>
 								</div>
 							</div>
 							<!-- .with_background -->
@@ -708,35 +462,35 @@
 
 							<div class="with_background with_padding">
 								<h4>
-									Latest Orders
+									Récentes Clôtures d'Incident
 								</h4>
 								<div class="admin-scroll-panel scrollbar-macosx">
 									<ul class="list1 no-bullets">
 										<li class="item-editable small-teaser">
 											<div class="media">
-												<div class="item-edit-controls darklinks">
+												<!--div class="item-edit-controls darklinks">
 													<a href="#">
 														<i class="fa fa-share-square-o"></i>
 													</a>
 													<a href="#">
 														<i class="fa fa-edit"></i>
 													</a>
-													<a href="#">
-														<i class="fa fa-trash-o"></i>
-													</a>
-												</div>
+												</div-->
 												<div class="media-left">
 													<div class="teaser_icon label-success fontsize_16">
-														<i class="fa fa-shopping-cart"></i>
+														<i class="fa fa-file-text"></i>
 													</div>
 												</div>
 												<div class="media-body">
 													<h5>
-														Product Name
-														<small>365$</small>
+														Site:
+														<small>Site 01</small>
 													</h5>
+                                                    <div>
+														<p>5/05/2024</p>
+													</div>
 													<div>
-														<h6>Order Comment:</h6>
+														<h6>Observation</h6>
 														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
 													</div>
 												</div>
@@ -744,56 +498,60 @@
 										</li>
 										<li class="item-editable small-teaser">
 											<div class="media">
-												<div class="item-edit-controls darklinks">
+												<!--div class="item-edit-controls darklinks">
 													<a href="#">
 														<i class="fa fa-share-square-o"></i>
 													</a>
 													<a href="#">
 														<i class="fa fa-edit"></i>
 													</a>
-													<a href="#">
-														<i class="fa fa-trash-o"></i>
-													</a>
-												</div>
+												</div-->
 												<div class="media-left">
 													<div class="teaser_icon label-success fontsize_16">
-														<i class="fa fa-shopping-cart"></i>
+														<i class="fa fa-file-text"></i>
 													</div>
 												</div>
 												<div class="media-body">
 													<h5>
-														6 Products
-														<small>129$</small>
+														Site:
+														<small>Site 01</small>
 													</h5>
+                                                    <div>
+														<p>5/05/2024</p>
+													</div>
+													<div>
+														<h6>Observation</h6>
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
+													</div>
 												</div>
 											</div>
 										</li>
 										<li class="item-editable small-teaser">
 											<div class="media">
-												<div class="item-edit-controls darklinks">
+												<!--div class="item-edit-controls darklinks">
 													<a href="#">
 														<i class="fa fa-share-square-o"></i>
 													</a>
 													<a href="#">
 														<i class="fa fa-edit"></i>
 													</a>
-													<a href="#">
-														<i class="fa fa-trash-o"></i>
-													</a>
-												</div>
+												</div-->
 												<div class="media-left">
 													<div class="teaser_icon label-success fontsize_16">
-														<i class="fa fa-shopping-cart"></i>
+														<i class="fa fa-file-text"></i>
 													</div>
 												</div>
 												<div class="media-body">
 													<h5>
-														Product Name Secont
-														<small>199$</small>
+														Site:
+														<small>Site 01</small>
 													</h5>
+                                                    <div>
+														<p>5/05/2024</p>
+													</div>
 													<div>
-														<h6>Order Comment:</h6>
-														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, esse, magni aliquam quisquam modi delectus veritatis est ut culpa minus repellendus.
+														<h6>Observation</h6>
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, corporis. Voluptatibus odio perspiciatis non quisquam provident, quasi eaque officia.
 													</div>
 												</div>
 											</div>
@@ -802,17 +560,17 @@
 								</div>
 								<!-- .admin-scroll-panel -->
 								<div class="text-right greylinks panel-view-all">
-									<a href="admin_orders.html">View All</a>
+									<a href="#">Tout voir</a>
 								</div>
 							</div>
 							<!-- .with_background -->
 						</div>
 						<!-- .col-* -->
 
-						<div class="col-xs-12 col-md-6">
+						<div class="col-xs-12 col-md-12">
 							<div class="with_background with_padding">
 								<h4>
-									DataBase Statistics
+									Statistique de gestion
 								</h4>
 								<div class="admin-scroll-panel scrollbar-macosx">
 
@@ -824,48 +582,61 @@
 												</div>
 												<div class="media-body">
 													<strong class="grey">
-														25364
+														150
 													</strong>
-													Total Users
+													Responsables QHSE
 												</div>
 											</div>
 										</li>
 										<li>
 											<div class="media small-teaser">
 												<div class="media-left">
-													<i class="fa fa-comment highlight"></i>
+													<i class="fa fa-users highlight"></i>
 												</div>
 												<div class="media-body">
 													<strong class="grey">
-														12520
+														244
 													</strong>
-													Reviews
+													Agents de déclarartion
 												</div>
 											</div>
 										</li>
 										<li>
 											<div class="media small-teaser">
 												<div class="media-left">
-													<i class="fa fa-shopping-cart highlight"></i>
+													<i class="fa fa-users highlight"></i>
 												</div>
 												<div class="media-body">
 													<strong class="grey">
-														5674
+														40
 													</strong>
-													Total Products
+													Traiteurs
 												</div>
 											</div>
 										</li>
 										<li>
 											<div class="media small-teaser">
 												<div class="media-left">
-													<i class="fa fa-money highlight"></i>
+													<i class="fa fa-building highlight"></i>
 												</div>
 												<div class="media-body">
 													<strong class="grey">
-														$132200
+														340
 													</strong>
-													Total Sales
+													Départements
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<div class="media small-teaser">
+												<div class="media-left">
+													<i class="fa fa-location-arrow highlight"></i>
+												</div>
+												<div class="media-body">
+													<strong class="grey">
+														568
+													</strong>
+													Sites
 												</div>
 											</div>
 										</li>
@@ -878,7 +649,7 @@
 						</div>
 						<!-- .col-* -->
 
-						<div class="col-xs-12 col-md-6">
+						<!--div class="col-xs-12 col-md-6">
 							<div class="with_background with_padding">
 								<h4>
 									Last Notes
@@ -967,10 +738,8 @@
 
 									</ul>
 								</div>
-								<!-- .admin-scroll-panel -->
 							</div>
-							<!-- .with_background -->
-						</div>
+						</div-->
 						<!-- .col-* -->
 
 
@@ -980,15 +749,6 @@
 				<!-- .container -->
 			</section>
 
-			<section class="ls">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							&copy; Copyrights 2017
-						</div>
-					</div>
-				</div>
-			</section>
 		</div>
 		<!-- eof #box_wrapper -->
 	</div>
